@@ -1,130 +1,211 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vamsi Prasad Kothapalli - Java Full Stack Developer Portfolio">
-    <title>Vamsi Prasad Kothapalli | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-</head>
-<body>
-    <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">VK</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uday Nippulati - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <header>
+          <h1>Uday Nippulati</h1>
+          <p>Full Stack Java Developer</p>
+        </header>
+        <nav>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+          </ul>
         </nav>
-    </header>
+      </div>
+    </div>
+    <section id="about">
+      <h2>About Me</h2>
 
-    <!-- Home Section -->
-    <section id="home" class="home">
-        <div class="intro">
-            <h1>Hi, I'm Vamsi Prasad Kothapalli</h1>
-            <p>Java Full Stack Developer with over 6 years of experience in building scalable web and enterprise applications.</p>
-            <a href="#contact" class="button">Contact Me</a>
-            <a href="Vamsi_Kothapalli_Resume.pdf" class="button">View Resume</a>
+      <div class="hero">
+        <p>
+          Hi, I am Uday Nippulati. I have over 8 years of experience in Full
+          Stack Java Development. I have worked across various domains including
+          healthcare, networking, retail, and banking. My expertise spans the
+          entire Software Development Life Cycle (SDLC), encompassing analysis,
+          design, development, testing, and deployment of enterprise
+          applications. Throughout my career, I have been recognized for my
+          ability to translate business requirements into technical solutions,
+          ensuring high performance, scalability, and reliability. My hands-on
+          experience with modern front-end technologies like React.js, combined
+          with robust back-end development in Java, allows me to build seamless
+          and efficient applications. In addition to technical skills, I am
+          passionate about continuous learning and staying updated with the
+          latest industry trends. I enjoy collaborating with cross-functional
+          teams to deliver high-quality software solutions that meet and exceed
+          client expectations. I am dedicated to driving innovation and
+          excellence in every project I undertake.
+        </p>
+        <img src="images/uday2.jpg" alt="" />
+      </div>
+    </section>
+    <div class="skill-wrapper">
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skill-box">
+            <img src="images/html.png" alt="HTML" />
+            <p>HTML</p>
+          </div>
+          <div class="skill-box">
+            <img src="images/css.png" alt="CSS" />
+            <p>CSS</p>
+          </div>
+          <div class="skill-box">
+            <img src="images/js.png" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-box">
+            <img src="images/bootstrap.png" alt="Bootstrap" />
+            <p>Bootstrap</p>
+          </div>
+          <div class="skill-box">
+            <img src="images/react.png" alt="React JS" />
+            <p>React JS</p>
+          </div>
+          <div class="skill-box">
+            <img src="images/angular.png" alt="Angular JS" />
+            <p>Angular JS</p>
+          </div>
+          <div class="skill-box">
+            <img src="images/spring.png" alt="Spring Boot" />
+            <p>Spring Boot</p>
+          </div>
+
+          <div class="skill-box">
+            <img src="images/aws.png" alt="AWS" />
+            <p>AWS</p>
+          </div>
+          <div class="skill-box">
+            <img src="images/azure.png" alt="Azure" />
+            <p>Azure</p>
+          </div>
+          <div class="skill-box">
+            <img src="images/git.png" alt="Git" />
+            <p>Git</p>
+          </div>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>A Java Full Stack Developer with expertise in designing and developing applications using Java, Spring Boot, React, AWS, and more. Passionate about creating efficient, scalable, and maintainable applications.</p>
-        <h3>Education</h3>
-        <ul>
-            <li>Masters in Data Science - University of North Texas, Denton, Texas</li>
-            <li>Bachelor’s in Computer Science and Engineering - VIT Vellore, India</li>
-        </ul>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <h2>Professional Experience</h2>
-        <div class="job">
-            <h3>Java Full Stack Developer</h3>
-            <h4>Berkadia | Aug 2022 - Present</h4>
-            <p>Implemented multi-tiered J2EE design using Spring Boot, Hibernate ORM, AWS, automated processes with Shell scripting, etc.</p>
+      </section>
+    </div>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-container">
+        <div class="experience-item">
+          <div class="experience-left">
+            <h3>NextGen Healthcare</h3>
+            <p>Atlanta, GA</p>
+            <p>Full Stack Java Developer</p>
+            <p>Sep 2022 - Present</p>
+          </div>
+          <div class="experience-divider"></div>
+          <div class="experience-right">
+            <h4>Responsibilities:</h4>
+            <p>
+              At NextGen Healthcare, I developed user interfaces using the
+              Spring MVC framework, JSP, HTML5, CSS, JavaScript, and AngularJS.
+              I created Single Page Applications (SPAs) with React, utilizing
+              Hooks and Redux for state management. I also integrated Spring
+              Cloud projects for distributed tracing and additional features,
+              and deployed applications on AWS.
+            </p>
+          </div>
         </div>
-        <!-- Add more jobs similarly -->
+        <div class="experience-item">
+          <div class="experience-left">
+            <h3>Equinix</h3>
+            <p>Dallas, TX</p>
+            <p>Full Stack Java Developer</p>
+            <p>Dec 2020 – Aug 2022</p>
+          </div>
+          <div class="experience-divider"></div>
+          <div class="experience-right">
+            <h4>Responsibilities:</h4>
+            <p>
+              At Equinix, I participated in all project phases from analysis to
+              delivery. I developed RESTful APIs with Spring Boot, created
+              responsive client-side interfaces using React JS, and managed
+              messaging services with Apache Kafka. I also designed
+              microservices architecture and deployed applications on AWS.
+            </p>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-left">
+            <h3>Qurate Retail Group</h3>
+            <p>West Chester, PA</p>
+            <p>Software Developer</p>
+            <p>Dec 2018 – Nov 2020</p>
+          </div>
+          <div class="experience-divider"></div>
+          <div class="experience-right">
+            <h4>Responsibilities:</h4>
+            <p>
+              At Qurate Retail Group, I developed applications using Java and
+              Angular. I implemented microservices with Spring Boot and created
+              REST API documentation using Swagger. I also utilized Kafka for
+              real-time data processing and deployed applications on Azure.
+            </p>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-left">
+            <h3>Syntel</h3>
+            <p>Chennai, Tamil Nadu</p>
+            <p>Java Developer</p>
+            <p>Mar 2017 – Nov 2018</p>
+          </div>
+          <div class="experience-divider"></div>
+          <div class="experience-right">
+            <h4>Responsibilities:</h4>
+            <p>
+              At Syntel, I implemented MVC architecture using Apache Struts and
+              developed front-end components with JSP and JavaScript. I created
+              batch processes with Spring Batch and automated testing with
+              JUnit. I also developed REST and SOAP-based web services and
+              deployed applications using Eclipse and Tomcat.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Programming Languages: Java, C, C++, Python</li>
-            <li>Frameworks & Libraries: Spring, Spring Boot, Hibernate, Angular, React, Node.js</li>
-            <li>Web Development: HTML5, CSS3, JavaScript, TypeScript, jQuery</li>
-            <li>Cloud Platforms: AWS, Azure, Google Cloud</li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
-
-    <!-- Projects Section -->
-        <section id="projects" class="projects">
-            <h2>Projects</h2>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <h3>Microservices Architecture for Financial Services Application</h3>
-                        <p>Developed microservices architecture using Java, Spring Boot, and AWS to create a scalable and efficient solution.</p>
-                    </div>
-                    <!-- Add more slides here -->
-                </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- Add Navigation -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-        </section>
-        
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:kothapallivamsiprasad@gmail.com">kothapallivamsiprasad@gmail.com</a></p>
-        <p>Phone: (682) 214-7594</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/vamsi-prasad-kothapalli-90769624a/">Vamsi Prasad Kothapalli</a></p>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Vamsi Prasad Kothapalli. All rights reserved.</p>
+      <div class="footer-icons">
+        <a href="https://github.com/UdayNippulati" target="_blank">
+          <img src="images/git.png" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/uday-nippulati" target="_blank">
+          <img src="images/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="mailto:nippulatiuday0126@gmail.com">
+          <img src="images/email.png" alt="Email" />
+        </a>
+        <a href="tel:+14699031668">
+          <img src="images/phone.png" alt="Phone" />
+        </a>
+      </div>
     </footer>
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>  
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-</script>
- 
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
