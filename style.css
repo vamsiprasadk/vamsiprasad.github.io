@@ -101,3 +101,33 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+.button:hover {
+    background-color: #0077cc;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00aaff;
+    border-bottom: 2px solid #00aaff;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .home h1 {
+        font-size: 2rem;
+    }
+    .home p {
+        font-size: 1rem;
+    }
+    .button {
+        padding: 8px 16px;
+    }
+}
